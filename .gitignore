@@ -1,0 +1,8 @@
+nogit
+.pio
+.clang_complete
+.gcc-flags.json
+.ccls
+.idea
+.vscode
+.DS_Store

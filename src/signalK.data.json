@@ -1,0 +1,462 @@
+{
+    "uuid": "urn:mrn:signalk:uuid:a6eb6272-6715-4dcc-9d44-350be66bbe8a",
+    "navigation": {
+        "position": {
+            "meta": {
+                "description": "The position of the vessel in 2 or 3 dimensions (WGS84 datum)",
+                "properties": {
+                    "longitude": {
+                        "type": "number",
+                        "description": "Longitude",
+                        "units": "deg",
+                        "example": 4.98765245
+                    },
+                    "latitude": {
+                        "type": "number",
+                        "description": "Latitude",
+                        "units": "deg",
+                        "example": 52.0987654
+                    },
+                    "altitude": {
+                        "type": "number",
+                        "description": "Altitude",
+                        "units": "m"
+                    }
+                }
+            },
+            "value": {
+                "longitude": 24.7330593,
+                "latitude": 59.7179229
+            },
+            "$source": "n2k-sample-data.160",
+            "timestamp": "2014-08-15T19:03:53.274Z",
+            "pgn": 129029
+        },
+        "datetime": {
+            "meta": {
+                "description": "Time and Date from the GNSS Positioning System"
+            },
+            "value": "2014-08-15T19:03:52.77900Z",
+            "$source": "n2k-sample-data.160",
+            "timestamp": "2014-08-15T19:03:53.274Z",
+            "pgn": 129029
+        },
+        "gnss": {
+            "antennaAltitude": {
+                "meta": {
+                    "units": "m",
+                    "description": "Altitude of antenna"
+                },
+                "value": 0.41,
+                "$source": "n2k-sample-data.160",
+                "timestamp": "2014-08-15T19:03:53.274Z",
+                "pgn": 129029
+            },
+            "satellites": {
+                "meta": {
+                    "description": "Number of satellites"
+                },
+                "value": 10,
+                "$source": "n2k-sample-data.160",
+                "timestamp": "2014-08-15T19:03:53.274Z",
+                "pgn": 129029
+            },
+            "horizontalDilution": {
+                "meta": {
+                    "description": "Horizontal Dilution of Precision"
+                },
+                "value": 0.8,
+                "$source": "n2k-sample-data.160",
+                "timestamp": "2014-08-15T19:03:53.274Z",
+                "pgn": 129029
+            },
+            "type": {
+                "meta": {
+                    "description": "Fix type"
+                },
+                "value": "GPS",
+                "$source": "n2k-sample-data.160",
+                "timestamp": "2014-08-15T19:03:53.274Z",
+                "pgn": 129029
+            },
+            "methodQuality": {
+                "meta": {
+                    "description": "Quality of the satellite fix"
+                },
+                "value": "GNSS Fix",
+                "$source": "n2k-sample-data.160",
+                "timestamp": "2014-08-15T19:03:53.274Z",
+                "pgn": 129029
+            },
+            "integrity": {
+                "meta": {
+                    "description": "Integrity of the satellite fix"
+                },
+                "value": "no Integrity checking",
+                "$source": "n2k-sample-data.160",
+                "timestamp": "2014-08-15T19:03:53.274Z",
+                "pgn": 129029
+            },
+            "satellitesInView": {
+                "meta": {},
+                "value": {
+                    "count": 11,
+                    "satellites": [
+                        {
+                            "id": 32,
+                            "elevation": 1.2392,
+                            "azimuth": 3.8746,
+                            "SNR": 37
+                        },
+                        {
+                            "id": 1,
+                            "elevation": 1.1694,
+                            "azimuth": 4.6077,
+                            "SNR": 31
+                        },
+                        {
+                            "id": 11,
+                            "elevation": 1.0472,
+                            "azimuth": 3.5256,
+                            "SNR": 34
+                        },
+                        {
+                            "id": 14,
+                            "elevation": 0.7854,
+                            "azimuth": 1.1694,
+                            "SNR": 33
+                        },
+                        {
+                            "id": 20,
+                            "elevation": 0.5061,
+                            "azimuth": 4.3982,
+                            "SNR": 33
+                        },
+                        {
+                            "id": 17,
+                            "elevation": 0.4014,
+                            "azimuth": 5.5501,
+                            "SNR": 36
+                        },
+                        {
+                            "id": 4,
+                            "elevation": 0.3491,
+                            "azimuth": 5.1487,
+                            "SNR": 33
+                        },
+                        {
+                            "id": 22,
+                            "elevation": 0.2967,
+                            "azimuth": 1.4137,
+                            "SNR": 32
+                        },
+                        {
+                            "id": 19,
+                            "elevation": 0.2443,
+                            "azimuth": 3.2463,
+                            "SNR": 31
+                        },
+                        {
+                            "id": 28,
+                            "elevation": 0.1571,
+                            "azimuth": 4.8869,
+                            "SNR": 31
+                        },
+                        {
+                            "id": 31,
+                            "elevation": 0.1222,
+                            "azimuth": 2.1468,
+                            "SNR": 31
+                        }
+                    ]
+                },
+                "$source": "n2k-sample-data.160",
+                "timestamp": "2014-08-15T19:03:53.099Z",
+                "pgn": 129540
+            }
+        },
+        "speedThroughWater": {
+            "meta": {
+                "units": "m/s",
+                "description": "Vessel speed through the water"
+            },
+            "value": 3.34,
+            "$source": "n2k-sample-data.115",
+            "timestamp": "2014-08-15T19:03:52.965Z",
+            "pgn": 128259
+        },
+        "speedThroughWaterReferenceType": {
+            "meta": {},
+            "value": "Paddle wheel",
+            "$source": "n2k-sample-data.115",
+            "timestamp": "2014-08-15T19:03:52.965Z",
+            "pgn": 128259
+        },
+        "trip": {
+            "log": {
+                "meta": {
+                    "units": "m",
+                    "description": "Total distance traveled on this trip / since trip reset"
+                },
+                "value": 80729,
+                "$source": "n2k-sample-data.115",
+                "timestamp": "2014-08-15T19:03:52.608Z",
+                "pgn": 128275
+            }
+        },
+        "log": {
+            "meta": {
+                "units": "m",
+                "description": "Total distance traveled"
+            },
+            "value": 17441766,
+            "$source": "n2k-sample-data.115",
+            "timestamp": "2014-08-15T19:03:52.608Z",
+            "pgn": 128275
+        },
+        "speedOverGround": {
+            "meta": {
+                "units": "m/s",
+                "description": "Vessel speed over ground. If converting from AIS 'HIGH' value, set to 102.2 (Ais max value) and add warning in notifications"
+            },
+            "value": 3.45,
+            "$source": "n2k-sample-data.160",
+            "timestamp": "2014-08-15T19:03:52.971Z",
+            "pgn": 129026
+        },
+        "courseOverGroundTrue": {
+            "meta": {
+                "units": "rad",
+                "description": "Course over ground (true)"
+            },
+            "value": 3.461,
+            "$source": "n2k-sample-data.160",
+            "timestamp": "2014-08-15T19:03:52.971Z",
+            "pgn": 129026
+        },
+        "headingTrue": {
+            "meta": {
+                "units": "rad",
+                "description": "The current true north heading of the vessel, equals 'headingMagnetic adjusted for magneticVariation'"
+            },
+            "value": 3.7106,
+            "$source": "n2k-sample-data.160",
+            "timestamp": "2014-08-15T19:03:53.101Z",
+            "pgn": 127250
+        },
+        "magneticVariation": {
+            "meta": {
+                "units": "rad",
+                "description": "The magnetic variation (declination) at the current position that must be added to the magnetic heading to derive the true heading. Easterly variations are positive and Westerly variations are negative (in Radians)."
+            },
+            "value": 0.1414,
+            "$source": "n2k-sample-data.160",
+            "timestamp": "2014-08-15T19:03:53.101Z",
+            "pgn": 127250
+        },
+        "courseGreatCircle": {
+            "nextPoint": {
+                "arrivalCircle": {
+                    "meta": {},
+                    "value": 0,
+                    "$source": "courseApi",
+                    "timestamp": "2023-03-14T18:46:27.409Z"
+                }
+            }
+        },
+        "courseRhumbline": {
+            "nextPoint": {
+                "arrivalCircle": {
+                    "meta": {},
+                    "value": 0,
+                    "$source": "courseApi",
+                    "timestamp": "2023-03-14T18:46:27.409Z"
+                }
+            }
+        }
+    },
+    "environment": {
+        "water": {
+            "temperature": {
+                "meta": {
+                    "units": "K",
+                    "description": "Current water temperature"
+                },
+                "value": 313.15,
+                "$source": "n2k-sample-data.115",
+                "timestamp": "2014-08-15T19:03:53.027Z",
+                "pgn": 130311
+            }
+        },
+        "current": {
+            "meta": {
+                "description": "Direction and strength of current affecting the vessel",
+                "properties": {
+                    "drift": {
+                        "type": "number",
+                        "description": "The speed component of the water current vector",
+                        "example": 3.12,
+                        "units": "m/s"
+                    },
+                    "setTrue": {
+                        "type": "number",
+                        "description": "The direction component of the water current vector referenced to true (geographic) north",
+                        "example": 123.45,
+                        "units": "rad"
+                    },
+                    "setMagnetic": {
+                        "type": "number",
+                        "description": "The direction component of the water current vector referenced to magnetic north",
+                        "example": 131.22,
+                        "units": "rad"
+                    }
+                }
+            },
+            "value": {
+                "setTrue": 2.2607,
+                "drift": 0.84
+            },
+            "$source": "n2k-sample-data.160",
+            "timestamp": "2014-08-15T19:03:52.775Z",
+            "pgn": 130577
+        },
+        "wind": {
+            "speedApparent": {
+                "meta": {
+                    "units": "m/s",
+                    "description": "Apparent wind speed"
+                },
+                "value": 8.34,
+                "$source": "n2k-sample-data.115",
+                "timestamp": "2014-08-15T19:03:52.762Z",
+                "pgn": 130306
+            },
+            "angleApparent": {
+                "meta": {
+                    "units": "rad",
+                    "description": "Apparent wind angle, negative to port"
+                },
+                "value": 0.9079,
+                "$source": "n2k-sample-data.115",
+                "timestamp": "2014-08-15T19:03:52.762Z",
+                "pgn": 130306
+            }
+        },
+        "depth": {
+            "belowTransducer": {
+                "meta": {
+                    "units": "m",
+                    "description": "Depth below Transducer"
+                },
+                "value": 20.86,
+                "$source": "n2k-sample-data.115",
+                "timestamp": "2014-08-15T19:03:52.451Z",
+                "pgn": 128267
+            },
+            "transducerToKeel": {
+                "meta": {
+                    "units": "m",
+                    "description": "Depth from the transducer to the bottom of the keel"
+                },
+                "value": -0.001,
+                "$source": "n2k-sample-data.115",
+                "timestamp": "2014-08-15T19:03:52.451Z",
+                "pgn": 128267
+            },
+            "belowKeel": {
+                "meta": {
+                    "units": "m",
+                    "description": "Depth below keel"
+                },
+                "value": 20.858999999999998,
+                "$source": "n2k-sample-data.115",
+                "timestamp": "2014-08-15T19:03:52.451Z",
+                "pgn": 128267
+            }
+        }
+    },
+    "electrical": {
+        "batteries": {
+            "1": {
+                "capacity": {
+                    "timeRemaining": {
+                        "meta": {
+                            "units": "s",
+                            "description": "Time to discharge to discharge limit at current rate"
+                        },
+                        "value": null,
+                        "$source": "n2k-sample-data.129",
+                        "timestamp": "2014-08-15T19:03:51.252Z",
+                        "pgn": 127506
+                    }
+                },
+                "voltage": {
+                    "meta": {
+                        "units": "V",
+                        "description": "Voltage measured at or as close as possible to the device"
+                    },
+                    "value": 14.54,
+                    "$source": "n2k-sample-data.129",
+                    "timestamp": "2014-08-15T19:03:53.161Z",
+                    "pgn": 127508
+                },
+                "current": {
+                    "meta": {
+                        "units": "A",
+                        "description": "Current flowing out (+ve) or in (-ve) to the device"
+                    },
+                    "value": 211.9,
+                    "$source": "n2k-sample-data.129",
+                    "timestamp": "2014-08-15T19:03:53.161Z",
+                    "pgn": 127508
+                },
+                "temperature": {
+                    "meta": {
+                        "units": "K",
+                        "description": "Temperature measured within or on the device"
+                    },
+                    "value": 299.82,
+                    "$source": "n2k-sample-data.129",
+                    "timestamp": "2014-08-15T19:03:53.161Z",
+                    "pgn": 127508
+                }
+            }
+        }
+    },
+    "notifications": {
+        "security": {
+            "accessRequest": {
+                "any": {
+                    "b73d499c-75b2-4d81-b538-314e8b59a2fd": {
+                        "meta": {},
+                        "value": {
+                            "state": "alert",
+                            "method": [
+                                "visual",
+                                "sound"
+                            ],
+                            "message": "The device \"Helm\" has requested access to the server",
+                            "timestamp": "2023-03-30T17:11:13.074Z"
+                        },
+                        "$source": "sk-simple-token-security-config",
+                        "timestamp": "2023-03-30T17:11:13.074Z"
+                    },
+                    "B7BBF4EB-9F9B-53FF-8D50-1243E8158EF0": {
+                        "meta": {},
+                        "value": {
+                            "state": "alert",
+                            "method": [
+                                "visual",
+                                "sound"
+                            ],
+                            "message": "The device \"iPad\" has requested access to the server",
+                            "timestamp": "2023-04-21T17:50:25.702Z"
+                        },
+                        "$source": "sk-simple-token-security-config",
+                        "timestamp": "2023-04-21T17:50:25.702Z"
+                    }
+                }
+            }
+        }
+    }
+}

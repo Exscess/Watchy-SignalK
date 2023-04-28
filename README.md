@@ -24,3 +24,5 @@ SignalK json endpoint is set in the code:
 Change it to your sailboat endpoint or keep it as it is for development purpose.
 
 ### More
+![Alt text](img/IMG_5894.jpg?raw=true "One")
+![Alt text](img/IMG_5895.jpg?raw=true "Two")
